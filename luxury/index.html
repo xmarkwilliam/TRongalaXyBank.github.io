@@ -47,7 +47,7 @@
                 <div class="i-margin-bottom">
                     <p class="i-text-muted">From 21.0 to 21.67<span class="i-text-red">%</span> Daily <span class="i-text-red">ROI</span> <br> ,until <span class="i-text-red">8%</span> in 3 <span class="i-text-red">levels</span> of Referral Commission and <span class="i-text-red"> 3% Cashback </span></p>
                 </div>
-                <a :href="'https://tronscan.org/#/address/' + contract_address" target="_blank" class="i-btn">Contract Verified</a>
+                <a :href="'https://shasta.tronscan.org/#/address/' + contract_address" target="_blank" class="i-btn">Contract Verified</a>
 <a :href="'/'" target="_blank" class="i-btn">TRongalaXyBank (Inspired in Bank of Tron)</a>
 <a :href="'https://trongalaxy-bank.ga/'" target="_blank" class="i-btn">Backup Site</a>
 <p class="i-text-muted">Without <span class="i-text-red">BACKDOORS</span> or <span class="i-text-red">SCAMS</span> <br> <span class="i-text-red">SHARE WITH YOUR FRIENDS</span>, and help us grow that <span class="i-text-red"> we want to last.</span></p>
@@ -158,7 +158,7 @@
                     <div class="i-w-1-1 i-w-1-1@s i-w-1-2@m i-margin-bottom">
                         <div class="i-text-muted">Last Events</div>
                         <div class="b-overflow">
-                            <a :href="'https://tronscan.org/#/transaction/' + event.tx" target="_blank" class="i-text-nowrap" v-for="event in events">{{ new Date(event.time).toLocaleDateString() }} {{ event.type }} {{ event.amount > 0 ? event.amount : '' }} <span class="i-text-red" v-if="event.amount > 0">TRX</span></a>
+                            <a :href="'https://shasta.tronscan.org/#/transaction/' + event.tx" target="_blank" class="i-text-nowrap" v-for="event in events">{{ new Date(event.time).toLocaleDateString() }} {{ event.type }} {{ event.amount > 0 ? event.amount : '' }} <span class="i-text-red" v-if="event.amount > 0">TRX</span></a>
                         </div>
                     </div>
                 </div>
