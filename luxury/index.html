@@ -144,7 +144,7 @@
                     <div class="i-w-1-1 i-w-1-1@s i-w-1-2@m i-margin-bottom">
                         <div class="i-margin-bottom">
                             <div class="i-text-muted">You Referral Link</div>
-                            <div class="i-text-bold" v-if="user.total_invested > 0">{{ location.origin + /luxury }}/?ref={{ tron.account }} <span class="i-text-red" @click="copyText(location.origin + '/?ref=' + tron.account)">Copy</span></div>
+                            <div class="i-text-bold" v-if="user.total_invested > 0">{{ location.href }}/?ref={{ tron.account }} <span class="i-text-red" @click="copyText(location.origin + '/?ref=' + tron.account)">Copy</span></div>
                             <div class="i-text-small i-text-thin i-text-red" v-if="user.total_invested == 0">You will get your ref link after investing</div>
                         </div>
                         <div>
